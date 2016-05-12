@@ -1,28 +1,9 @@
-== README
+Url Shortener
+Let’s create a rails app that shortens urls.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+User Story
+As a user I should be able to enter a url in a form and receive a shortened url as an integer(id)
+When visiting this shortened url I should be redirected to the original url
+Example:
+- Given a ‘long’ url in the form (https://twitter.com/jciancio7), should generate a shortened url (https://YOUR_APP.herokuapp.com/3)
+- When I visit https://YOUR_APP.herokuapp.com/3, I should be redirected to https://twitter.com/jciancio7
